@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="275"
+   height="275"
+   viewBox="0 0 275 275"
+   version="1.1"
+   id="svg204"
+   sodipodi:docname="cbox_logo.svg"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
+   inkscape:export-filename="/Users/russell/projects/seamless_cbox/cbox_logo.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <metadata
+     id="metadata208">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:document-rotation="0"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1229"
+     inkscape:window-height="745"
+     id="namedview206"
+     showgrid="false"
+     inkscape:zoom="1.7272727"
+     inkscape:cx="135.76316"
+     inkscape:cy="142.37454"
+     inkscape:window-x="51"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg204" />
+  <defs
+     id="defs148">
+    <!-- Blueprint Grid Pattern -->
+    <pattern
+       id="grid"
+       width="20"
+       height="20"
+       patternUnits="userSpaceOnUse">
+      <path
+         d="M 20 0 L 0 0 0 20"
+         fill="none"
+         stroke="rgba(255,255,255,0.15)"
+         stroke-width="1"
+         id="path142" />
+    </pattern>
+    <!-- Hatch Pattern for Tabs -->
+    <pattern
+       id="hatch"
+       width="4"
+       height="4"
+       patternUnits="userSpaceOnUse"
+       patternTransform="rotate(45)">
+      <line
+         x1="0"
+         y1="0"
+         x2="0"
+         y2="4"
+         stroke="rgba(255,255,255,0.3)"
+         stroke-width="1"
+         id="line145" />
+    </pattern>
+  </defs>
+  <!-- Blueprint Background: Adjusted to new size -->
+  <rect
+     width="275"
+     height="275"
+     fill="#00447c"
+     id="rect150" />
+  <rect
+     width="275"
+     height="275"
+     fill="url(#grid)"
+     id="rect152"
+     style="fill:#003153;fill-opacity:0" />
+  <!-- Main Content Group: Unfolded Cube Net -->
+  <!-- Centered at 137.5, 137.5 (half of 275) -->
+  <g
+     transform="translate(137.5, 137.5) scale(1.2)"
+     id="g198">
+    <!-- --- FOLD LINES (Internal dashed lines) --- -->
+    <!-- The square grid where faces meet -->
+    <g
+       stroke="white"
+       stroke-width="1"
+       stroke-dasharray="3,3"
+       fill="none"
+       id="g156">
+      <!-- Center Square (Base) Bounds -->
+      <rect
+         x="-30"
+         y="-30"
+         width="60"
+         height="60"
+         id="rect154" />
+    </g>
+    <!-- --- FACES (Outlines) --- -->
+    <rect
+       style="fill:#2c5aa0;stroke:#ffffff;stroke-width:2"
+       id="rect158"
+       height="60"
+       width="60"
+       y="-90"
+       x="-30" />
+    <rect
+       style="fill:#2c5aa0;stroke:#ffffff;stroke-width:2"
+       id="rect160"
+       height="60"
+       width="60"
+       y="30"
+       x="-30" />
+    <rect
+       style="fill:#2c5aa0;stroke:#ffffff;stroke-width:2"
+       id="rect162"
+       height="60"
+       width="60"
+       y="-30"
+       x="-90" />
+    <rect
+       style="fill:#2c5aa0;stroke:#ffffff;stroke-width:2"
+       id="rect164"
+       height="60"
+       width="60"
+       y="-30"
+       x="30" />
+    <rect
+       style="stroke:#ffffff;stroke-width:2"
+       id="rect166"
+       fill="none"
+       height="60"
+       width="60"
+       y="-30"
+       x="-30" />
+    <!-- --- TABS / FLAPS (Hatched areas) --- -->
+    <g
+       stroke="white"
+       stroke-width="1"
+       fill="url(#hatch)"
+       id="g178">
+      <!-- Top Flap -->
+      <path
+         d="M-30 -90 L-25 -105 L25 -105 L30 -90 Z"
+         id="path170" />
+      <!-- Bottom Flap -->
+      <path
+         d="M-30 90 L-25 105 L25 105 L30 90 Z"
+         id="path172" />
+      <!-- Left Flap -->
+      <path
+         d="M-90 -30 L-105 -25 L-105 25 L-90 30 Z"
+         id="path174" />
+      <!-- Right Flap -->
+      <path
+         d="M90 -30 L105 -25 L105 25 L90 30 Z"
+         id="path176" />
+    </g>
+    <!-- --- DIMENSION MARKERS --- -->
+  </g>
+  <!-- Project Title in Blueprint Block -->
+  <text
+     style="font-size:29.3333px"
+     x="25.263159"
+     y="262.52634"
+     fill="#ffffff"
+     font-family="monospace"
+     font-size="16"
+     letter-spacing="2"
+     id="text202"><tspan
+       id="tspan37"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:120px;font-family:monospace;-inkscape-font-specification:'monospace Bold'">O</tspan></text>
+  <text
+     id="text202-7"
+     letter-spacing="2"
+     font-size="16"
+     font-family="monospace"
+     fill="#ffffff"
+     y="92.121971"
+     x="26.064632"
+     style="font-size:120px"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:120px;font-family:monospace;-inkscape-font-specification:'monospace Bold'"
+       id="tspan37-9">C</tspan></text>
+  <text
+     style="font-size:120px"
+     x="177.03146"
+     y="90.679276"
+     fill="#ffffff"
+     font-family="monospace"
+     font-size="16"
+     letter-spacing="2"
+     id="text202-7-9"><tspan
+       id="tspan37-9-7"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:120px;font-family:monospace;-inkscape-font-specification:'monospace Bold'">B</tspan></text>
+  <text
+     style="font-size:120px"
+     x="179.34724"
+     y="264.94244"
+     fill="#ffffff"
+     font-family="monospace"
+     font-size="16"
+     letter-spacing="2"
+     id="text202-7-0"><tspan
+       id="tspan37-9-3"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:120px;font-family:monospace;-inkscape-font-specification:'monospace Bold'">X</tspan></text>
+</svg>
